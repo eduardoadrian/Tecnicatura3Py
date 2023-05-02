@@ -21,5 +21,3 @@ class CatalogoPeliculas:
         print(f'Archivo eliminado: {cls.ruta_archivo}')
 
 
-class CatalogoPelicula:
-    pass

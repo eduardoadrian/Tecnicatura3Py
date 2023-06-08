@@ -31,7 +31,7 @@ class Conexion:
             
     
     @classmethod
-    def obtnerCursos(cls):
+    def obtnerCursor(cls):
         if cls._cursor is None:
             try:
                 cls._cursor = cls.obtenerConexion().cursor()
@@ -45,7 +45,7 @@ class Conexion:
 
 if __name__ == '__main__':
     Conexion.obtenerConexion()
-    Conexion.obtnerCursos()
+    Conexion.obtnerCursor()
 
 
 
